@@ -24,9 +24,15 @@ en:
     application:
       title: "Ian's Music Store"
       home: "Home"
-      questions: "Questions"
+      questions: "FAQ"
       news: "News"
       contact: "Contact"
+  errors:
+    template:
+      body:        "Please ammend the following:"
+      header:
+        one:       "1 error listed below:"
+        other:     "%{count} errors listed below:"
 
   store:
     index:
