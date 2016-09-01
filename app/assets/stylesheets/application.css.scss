@@ -14,11 +14,12 @@
  *= require_self
  */
 #banner {
-  background: #9c9;
+  background: #bab3e2;
   padding: 10px;
+  height: 100px;
   border-bottom: 2px solid;
-  font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
+  font: small-caps 80px/80px "Open Sans Bold", serif;
+  color: #fff;
   text-align: center;
 
   img {
@@ -27,28 +28,28 @@
 }
 
 #notice {
-  color: #000 !important;
-  border: 2px solid red;
+  color: #fff !important;
+  border: 2px solid #4299d0;
   padding: 1em;
   margin-bottom: 2em;
-  background-color: #f0f0f0;
+  background-color: #4299d0;
   font: bold smaller sans-serif;
 }
 
 #columns {
-  background: #141;
+  background: #4299d0;
 
   #main {
     margin-left: 17em;
     padding: 1em;
-    background: white;
+    background: #cae5f6;
   }
 
   #side {
     float: left;
     padding: 1em 2em;
     width: 13em;
-    background: #141;
+    background: #4299d0;
 
     form, div {
       display: inline;
@@ -63,8 +64,8 @@
       color:     white;
 
       table {
-        border-top:    1px dotted #595;
-        border-bottom: 1px dotted #595;
+        border-top:    1px dotted #cae5f6;
+        border-bottom: 1px dotted #cae5f6;
         margin-bottom: 10px;
       }
     }
@@ -74,7 +75,7 @@
       li {
         list-style: none;
         a {
-          color: #bfb;
+          color: #fff;
           font-size: small;
         }
       }
@@ -84,11 +85,11 @@
 
 .depot_form {
   fieldset {
-    background: #efe;
+    background: #bab3e2;
 
     legend {
-      color: #dfd;
-      background: #141;
+      color: #fff;
+      background: #4299d0;
       font-family: sans-serif;
       padding: 0.2em 1em;
     }

@@ -1,4 +1,4 @@
-<h1>Listing products</h1>
+<h1>Products List</h1>
 
 <table>
 <% @products.each do |product| %>
@@ -17,9 +17,9 @@
     </td>
 
     <td class="list_actions">
-      <%= link_to 'Show', product %><br/>
-      <%= link_to 'Edit', edit_product_path(product) %><br/>
-      <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
+      <%= link_to image_tag("view.jpg"), product %><br/>
+      <%= link_to image_tag("edit.jpg"), edit_product_path(product) %><br/>
+      <%= link_to image_tag("delete.jpg"), product, method: :delete, data: { confirm: 'Are you sure you want to delete this procuct?' } %>
     </td>
   </tr>
 <% end %>
@@ -27,4 +27,4 @@
 
 <br />
 
-<%= link_to 'New product', new_product_path %>
+<%= link_to image_tag("product.jpg"), new_product_path %>

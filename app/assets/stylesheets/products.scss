@@ -5,6 +5,7 @@
 .products {
   table {
     border-collapse: collapse;
+    color:        #fff;
   }
 
   table tr td {
@@ -13,8 +14,9 @@
   }
 
   .list_image {
-    width:  60px;
-    height: 70px;
+    width:  80px;
+    height: 80px;
+    border: 2px solid #fff;
   }
 
   .list_description {
@@ -25,7 +27,7 @@
     }
 
     dt {
-      color:        #244;
+      color:        #fff;
       font-weight:  bold;
       font-size:    larger;
     }
@@ -42,10 +44,10 @@
   }
 
   .list_line_even {
-    background:   #5e8cf3;
+    background:   #bab3e2;
   }
 
   .list_line_odd {
-    background:   #87a2e0;
+    background:   #4299d0;
   }
 }

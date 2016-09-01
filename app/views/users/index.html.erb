@@ -1,4 +1,4 @@
-<h1>Listing users</h1>
+<h1>Administrators</h1>
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
@@ -17,9 +17,9 @@
     <% @users.each do |user| %>
       <tr>
         <td><%= user.name %></td>
-        <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete,
+        <td><%= link_to image_tag("view.jpg"), user %></td>
+        <td><%= link_to image_tag("edit.jpg"), edit_user_path(user) %></td>
+        <td><%= link_to image_tag("delete.jpg"), user, method: :delete,
         data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New User', new_user_path %>
+<%= link_to image_tag("admin.jpg"), new_user_path %>

@@ -22,7 +22,7 @@
 en:
   layouts:
     application:
-      title: "Pragmatic Bookshelf"
+      title: "Ian's Music Store"
       home: "Home"
       questions: "Questions"
       news: "News"
@@ -30,7 +30,7 @@ en:
 
   store:
     index:
-      title_html: "Your Pragmatic Catalog"
+      title_html: "Available Music"
       add_html: "Add to Cart"
 
   carts:
