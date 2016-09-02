@@ -5,12 +5,12 @@ Depot::Application.configure do
   config.action_mailer.delivery_method = :smtp
 
   config.action_mailer.smtp_settings = {
-    address: "smtp.gmail.com",
-    port: 587,
-    domain: "stitcherads.com",
+    address: "mail1.eircom.net",
+    port: 25,
+    domain: "eircom.net",
     authentication: "plain",
-    user_name: "ian.ronan",
-    password: "lollipop0",
+    user_name: "ianronan@eircom.net",
+    password: "Vc7lTa",
     enable_starttls_auto: true
   }
 end
